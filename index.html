@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Search</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="wrapper">
+        <!-- LOGO START -->
+        <div class="logo">
+            <div class="container">
+                <p>Movie<span>Pro</span></p>
+            </div>
+        </div>
+        <!-- LOGO END -->
+        <!-- SEARCH START -->
+        <div class="search-container">
+            <div class="search-element">
+                <h3>SEARCH MOVIE: </h3>
+                <input type="text" class="form-control" placeholder="Enter movie name..." id="movie-search-box">
+
+                <div class="search-list" id="search-list"></div>
+                <!-- LIST -->
+                <div class="search-list-item">
+                    <div class="search-item-img">
+                        <img src="image.png" alt="movie poster">
+                    </div>
+                    <div class="search-item-info">
+                        <h3>Joker</h3>
+                        <p>2019</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- SEARCH END -->
+
+        <!-- RESULT CONTAINER -->
+        <div class = "cointainer">
+            <div class="result-container">
+                <div class="resultgrid" id="result-grid">
+                    <!-- MOVIE INFO -->
+                    <div class="movie-poster">
+                        <img src="image.png" alt="movie poster">
+                    </div>
+                    <div class="movie-info">
+                        <h3 class="movie-title">Joker</h3>
+                        <ul class="movie-misc-info">
+                            <li class="year">Year : 2019</li>
+                            <li class="rating">Rating: 8.3</li>
+                            <li class="content-rating">Rated: R</li>
+                            <li class="genre">Genre: Crime, Drama, Thriller</li>
+                            <li class="runtime">Runtime: 122</li>
+                        </ul>
+                        <p class="movie-description">Arthur Fleck, a party clown and a failed stand-up comedian, leads an impoverished life with his ailing mother. However, when society shuns him and brands him as a freak, he decides to embrace the life of chaos in Gotham City.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END RESULT CONTAINER -->
+    </div>
+
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
